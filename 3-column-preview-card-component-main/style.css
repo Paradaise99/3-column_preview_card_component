@@ -81,6 +81,11 @@ body{
     margin-bottom: 19px;
 }
 
+.cardliCyan p{
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
 .cardliCyan button{
     padding: 10px;
     background-color: var(--color-ligray);
@@ -108,6 +113,11 @@ body{
     margin-bottom: 19px;
 }
 
+.cardCyan p{
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
 .cardCyan button{
     padding: 10px;
     background-color: var(--color-ligray);
@@ -117,7 +127,58 @@ body{
     margin-bottom: 24px;
 }
 
-@media (min-width: 375px){
+@media (min-width: 1000px){
+     .card {
+        margin-left: 11.25rem;
+        margin-right: 11.25rem;
+        margin-top: 7.375rem;
+        margin-bottom: 5.625rem;
+        flex-direction: row;
+    }
+    
+    
+    .cardOrange {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0px;
+        height: 347px;
+    }
 
-}
+    .cardOrange button {
+        margin-bottom: 33px;
+    }
+
+    .cardOrange button:hover{
+        border: 1px solid var(--color-ligray);
+        background-color: var(--back-orange);
+        color: var(--color-ligray);
+    }
+
+    .cardliCyan button {
+        margin-bottom: 33px;
+    }
+
+    .cardliCyan button:hover{
+        border: 1px solid var(--color-ligray);
+        background-color: var(--back-cyan);
+        color: var(--color-ligray);
+    }
+    
+    .cardCyan {
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .cardCyan button{
+        margin-bottom: 33px;
+        
+    }
+
+    .cardCyan button:hover{
+        border: 1px solid var(--color-ligray);
+        background-color: var(--back-dkcyan);
+        color: var(--color-ligray);
+    }
+} 
 
