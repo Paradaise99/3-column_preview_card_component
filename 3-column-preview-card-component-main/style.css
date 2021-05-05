@@ -1,0 +1,123 @@
+:root{
+    --back-orange: hsl(31, 77%, 52%);
+    --back-cyan: hsl(184, 100%, 22%);
+    --back-dkcyan: hsl(179, 100%, 13%);
+    --text-white: hsla(0, 0%, 100%, 0.75);
+    --color-ligray: hsl(0, 0%, 95%);
+    --header-fontf: 'Big Shoulders Display', cursive;
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif; 
+    font-size: 15px;
+    background-color: var(--color-ligray);
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    flex-direction: column;
+}
+
+.card h1{
+    color: var(--color-ligray);
+    font-family: var(--header-fontf);
+}
+
+.card p{
+    color: var(--text-white);
+}
+
+.cardOrange {
+    background-color: var(--back-orange);
+    padding-left: 25px;
+    padding-right: 28px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cardOrange svg{
+    background-color: var(--back-orange);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.cardOrange h1{
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+
+.cardOrange p{
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.cardOrange button{
+    padding: 10px;
+    background-color: var(--color-ligray);
+    border: 0px;
+    color: var(--back-orange);
+    border-radius: 100px;
+    margin-bottom: 24px;
+}
+
+.cardliCyan {
+    background-color: var(--back-cyan);
+    padding-left: 25px;
+    padding-right: 28px;
+}
+
+.cardliCyan svg{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.cardliCyan h1{
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+
+.cardliCyan button{
+    padding: 10px;
+    background-color: var(--color-ligray);
+    border: 0px;
+    color: var(--back-cyan);
+    border-radius: 100px;
+    margin-bottom: 24px;
+}
+
+.cardCyan {
+    background-color:  var(--back-dkcyan);
+    padding-left: 25px;
+    padding-right: 28px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cardCyan svg{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.cardCyan h1{
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+
+.cardCyan button{
+    padding: 10px;
+    background-color: var(--color-ligray);
+    border: 0px;
+    color: var(--back-dkcyan);
+    border-radius: 100px;
+    margin-bottom: 24px;
+}
+
+@media (min-width: 375px){
+
+}
+
